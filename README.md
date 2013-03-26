@@ -1,4 +1,4 @@
-Chip8-emulator-Arduino-UNO
+Chip8 emulator Arduino UNO
 ==========================
 
     A chip8 emulator written in C/C++ for Arduino One
