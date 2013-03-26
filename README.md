@@ -13,10 +13,10 @@ Chip8 emulator Arduino UNO
 
 * in unix system, open the terminal and go to the location of RomFileToArray executable  
   add execution permission whit chmod u+=x to RomFileToArray  
-  afterwrite ./RomFileToArray <chip8 game path>  
+  afterwrite ./RomFileToArray "chip8 game path"  
 
-* the program return 2 file : <game>.c and <game>.h  
-  include <game>.h  in MicroChip8.ino  
+* the program return 2 file : game.c and game.h  
+  include game.h  in MicroChip8.ino  
   set the gamepad input with this table:  
 
      uint8_t gamepad[16]={  
@@ -27,7 +27,7 @@ Chip8 emulator Arduino UNO
         };
 
 * set rom with this code line: 
-  Chip8SetRom(chip8,(uint16_t)<game>,<game>_SIZE);
+  Chip8SetRom(chip8,(uint16_t)game,game_SIZE);
     
     
 
