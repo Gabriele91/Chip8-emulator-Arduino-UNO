@@ -114,7 +114,7 @@ void Chip8SetRom(struct _Chip *chip,uint16_t rom,uint16_t romsize){
 //esegue una lista comandi Rom
 int Chip8Execute(struct _Chip *chip){
     //set random values
-    srand(NULL);
+    srand(analogRead(0));
     // the program counter increases
     #define plus_pc  chip->memory->pc+=2
     #define plus_plus_pc  chip->memory->pc+=4

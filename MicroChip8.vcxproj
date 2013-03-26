@@ -42,7 +42,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <AdditionalIncludeDirectories>C:\Users\Gabriele\Documents\arduino-1.0.4\hardware\arduino\cores\arduino;C:\Users\Gabriele\Documents\arduino-1.0.4\hardware\arduino\variants\standard;c:\users\gabriele\documents\arduino-1.0.4\hardware\tools\avr\avr\include\;c:\users\gabriele\documents\arduino-1.0.4\hardware\tools\avr\avr\include\avr\;c:\users\gabriele\documents\arduino-1.0.4\hardware\tools\avr\avr\;c:\users\gabriele\documents\arduino-1.0.4\hardware\tools\avr\lib\gcc\avr\4.3.2\include\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <ForcedIncludeFiles>C:\Users\Gabriele\Documents\Arduino\MicroChip8\Visual Micro\.MicroChip8.vsarduino.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles>C:\Users\Gabriele\Documents\GitHub\Chip8-emulator-Arduino-UNO\Visual Micro\.Chip8-emulator-Arduino-UNO.vsarduino.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
       <IgnoreStandardIncludePath>true</IgnoreStandardIncludePath>
       <PreprocessorDefinitions>ARDUINO=104;__AVR_ATmega328P__;F_CPU=16000000L;__AVR__;__cplusplus;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
@@ -103,6 +103,7 @@
     <ClInclude Include="video_properties.h">
       <FileType>CppCode</FileType>
     </ClInclude>
+    <ClInclude Include="Visual Micro\.Chip8-emulator-Arduino-UNO.vsarduino.h" />
     <ClInclude Include="Visual Micro\.MicroChip8.vsarduino.h" />
   </ItemGroup>
   <ItemGroup>

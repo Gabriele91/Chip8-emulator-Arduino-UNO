@@ -11,6 +11,7 @@ struct HeapBlock {
 };
 //
 void HeapPrintToSerial();
+void HeapPrintToSerialLite();
 void HeapInit();
 bool HeapAdd(uint16_t ptr,uint8_t value);
 bool HeapExist(uint16_t ptr);

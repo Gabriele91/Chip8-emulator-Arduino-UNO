@@ -98,6 +98,31 @@ void HeapPrintToSerial(){
                     binBuffer);
     }
 }
+void HeapPrintToSerialLite(){
+   SerialPrintf("\nheap memory[%d]:\n",sizeof(heapstack));
+   char binBuffer[33];
+    for(int i=0;i<TINYHEAPSIZE;++i){
+		if(GET_VALUE_IS_SET(i)){
+		   itoa (heapstack[i].next,binBuffer,2);
+		   SerialPrintf("\t"
+						"heap[%d]={"
+						" ptr:%d,"
+						" value? %d,"
+						" value:%d,"
+						" next? %d ,"
+						" next: %d ,"
+						" next bin: %s }"
+						"\n",
+						i,
+						heapstack[i].ptr,
+						GET_VALUE_IS_SET(i),
+						heapstack[i].value,
+						GET_HAS_NEXT(i),
+						GET_NEXT_VALUE(i),
+						binBuffer);
+		}
+    }
+}
 //
 void HeapInit(){
     memset(heapstack,0,TINYHEAPSIZE*sizeof(HeapBlock));

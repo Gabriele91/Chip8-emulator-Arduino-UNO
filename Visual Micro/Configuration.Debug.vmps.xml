@@ -1,5 +1,5 @@
 <VisualMicro>
-  <Program Name="MicroChip8" Ext=".ino" Location="C:\Users\Gabriele\Documents\Arduino\MicroChip8">
+  <Program Name="MicroChip8" Ext=".ino" Location="C:\Users\Gabriele\Documents\GitHub\Chip8-emulator-Arduino-UNO">
     <Debug DebugMode="" DebugEnabled="0" />
     <Compile IsCompiled="0" CompilerErrors="0" ConfigurationName="Debug" StopOnError="True" OptimiseCore="True" BuildPath="C:\Users\Gabriele\AppData\Local\VMicro\Arduino\Builds\MicroChip8\uno" OptimiseLibs="False" />
     <Platform Name="Arduino">

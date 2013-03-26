@@ -1,5 +1,5 @@
 <VisualMicro>
-  <Program Name="MicroChip8" Ext=".ino" Location="C:\Users\Gabriele\Documents\Arduino\MicroChip8">
+  <Program Name="MicroChip8" Ext=".ino" Location="C:\Users\Gabriele\Documents\GitHub\Chip8-emulator-Arduino-UNO">
     <Debug DebugMode="" DebugEnabled="0" />
     <Compile CompilerErrors="0" ConfigurationName="Debug" StopOnError="True" OptimiseCore="True" BuildPath="C:\Users\Gabriele\AppData\Local\VMicro\Arduino\Builds\MicroChip8\uno" OptimiseLibs="False" IncludeDebug="0" IncludesDebug="0" SketchName="MicroChip8" IsCompiled="1" />
     <Platform Name="Arduino">
@@ -7,68 +7,92 @@
     </Platform>
     <VCCodeModel>
       <VCCodeMacros>
-        <VCCodeMacro Name="ARDUINO" Value="104" />
-        <VCCodeMacro Name="PONG2_H" Value="" />
-        <VCCodeMacro Name="TETRIS_H" Value="" />
-        <VCCodeMacro Name="GAMEPAD_H" Value="" />
         <VCCodeMacro Name="CHIP8CONFIG_H" Value="" />
+        <VCCodeMacro Name="GAMEPAD_H" Value="" />
+        <VCCodeMacro Name="PONG2_H" Value="" />
+        <VCCodeMacro Name="RENDER_H" Value="" />
         <VCCodeMacro Name="TINYHEAP_H" Value="" />
         <VCCodeMacro Name="TINYHEAPCONFIG_H" Value="" />
-        <VCCodeMacro Name="RENDER_H" Value="" />
+        <VCCodeMacro Name="ARDUINO" Value="104" />
+        <VCCodeMacro Name="ARDUINO" Value="104" />
+        <VCCodeMacro Name="BLINKY_H" Value="" />
+        <VCCodeMacro Name="BLITZ_H" Value="" />
+        <VCCodeMacro Name="__AVR_ATmega328P__" Value="" />
         <VCCodeMacro Name="__AVR_ATmega328P__" Value="" />
         <VCCodeMacro Name="F_CPU" Value="16000000L" />
+        <VCCodeMacro Name="F_CPU" Value="16000000L" />
         <VCCodeMacro Name="__AVR__" Value="" />
-        <VCCodeMacro Name="__cplusplus" Value="" />
+        <VCCodeMacro Name="__AVR__" Value="" />
         <VCCodeMacro Name="MODE_PAL" Value="1" />
+        <VCCodeMacro Name="__cplusplus" Value="" />
+        <VCCodeMacro Name="__cplusplus" Value="" />
         <VCCodeMacro Name="TINYHEAPSIZE" Value="64" />
-        <VCCodeMacro Name="__attribute__" Value="" />
-        <VCCodeMacro Name="MEMORY_FREE_H" Value="" />
         <VCCodeMacro Name="CHIP_H" Value="" />
+        <VCCodeMacro Name="MEMORY_FREE_H" Value="" />
         <VCCodeMacro Name="MODEL_NTSC" Value="0" />
-        <VCCodeMacro Name="__inline__" Value="" />
-        <VCCodeMacro Name="HEAP_TRUE" Value="0xFF" />
+        <VCCodeMacro Name="__attribute__" Value="" />
+        <VCCodeMacro Name="__attribute__" Value="" />
         <VCCodeMacro Name="_DEBUG_" Value="" />
         <VCCodeMacro Name="COLOR_WHITE" Value="0xFF" />
-        <VCCodeMacro Name="__asm__" Value="" />
+        <VCCodeMacro Name="HEAP_TRUE" Value="0xFF" />
+        <VCCodeMacro Name="__inline__" Value="" />
+        <VCCodeMacro Name="__inline__" Value="" />
+        <VCCodeMacro Name="COLOR_BLACK" Value="0x00" />
         <VCCodeMacro Name="_APS_NEXT_RESOURCE_VALUE" Value="101" />
         <VCCodeMacro Name="HEAP_FALSE" Value="0x00" />
-        <VCCodeMacro Name="COLOR_BLACK" Value="0x00" />
-        <VCCodeMacro Name="__extension__" Value="" />
-        <VCCodeMacro Name="_APS_NEXT_COMMAND_VALUE" Value="40001" />
+        <VCCodeMacro Name="__asm__" Value="" />
+        <VCCodeMacro Name="__asm__" Value="" />
         <VCCodeMacro Name="_DEBUG_" Value="" />
-        <VCCodeMacro Name="__ATTR_PURE__" Value="" />
+        <VCCodeMacro Name="_APS_NEXT_COMMAND_VALUE" Value="40001" />
+        <VCCodeMacro Name="__extension__" Value="" />
+        <VCCodeMacro Name="__extension__" Value="" />
+        <VCCodeMacro Name="PLAY_BLITZ" Value="" />
         <VCCodeMacro Name="_APS_NEXT_CONTROL_VALUE" Value="1001" />
-        <VCCodeMacro Name="__ATTR_CONST__" Value="" />
+        <VCCodeMacro Name="__ATTR_PURE__" Value="" />
+        <VCCodeMacro Name="__ATTR_PURE__" Value="" />
+        <VCCodeMacro Name="byte_8" Value="unsigned char" />
         <VCCodeMacro Name="PONG2_SIZE" Value="264" />
-        <VCCodeMacro Name="TETRIS_SIZE" Value="494" />
         <VCCodeMacro Name="_APS_NEXT_SYMED_VALUE" Value="101" />
         <VCCodeMacro Name="GET_VALUE_IS_SET" Value="((heapstack[hashValue].next &amp; 0x80)&gt;&gt;7)" />
-        <VCCodeMacro Name="byte_8" Value="unsigned char" />
-        <VCCodeMacro Name="__inline__" Value="" />
+        <VCCodeMacro Name="__ATTR_CONST__" Value="" />
+        <VCCodeMacro Name="__ATTR_CONST__" Value="" />
+        <VCCodeMacro Name="BLINKY_SIZE" Value="2356" />
+        <VCCodeMacro Name="BLITZ_SIZE" Value="391" />
         <VCCodeMacro Name="byte_16" Value="unsigned short" />
+        <VCCodeMacro Name="__inline__" Value="" />
+        <VCCodeMacro Name="__inline__" Value="" />
         <VCCodeMacro Name="__asm__" Value="" />
-        <VCCodeMacro Name="__volatile__" Value="" />
+        <VCCodeMacro Name="__asm__" Value="" />
         <VCCodeMacro Name="SET_VALUE_IS_SET" Value="heapstack[hashValue].next=(heapstack[hashValue].next &amp; 0x7F) | (value&amp; 0x80)" />
+        <VCCodeMacro Name="__volatile__" Value="" />
+        <VCCodeMacro Name="__volatile__" Value="" />
         <VCCodeMacro Name="_DEBUG" Value="printf(x);" />
+        <VCCodeMacro Name="__builtin_va_list" Value="" />
         <VCCodeMacro Name="__builtin_va_list" Value="" />
         <VCCodeMacro Name="_DEBUG2" Value="printf(x,y);" />
         <VCCodeMacro Name="__builtin_va_start" Value="" />
+        <VCCodeMacro Name="__builtin_va_start" Value="" />
         <VCCodeMacro Name="_DEBUG3" Value="printf(x,y,z);" />
         <VCCodeMacro Name="__builtin_va_end" Value="" />
+        <VCCodeMacro Name="__builtin_va_end" Value="" />
+        <VCCodeMacro Name="__DOXYGEN__" Value="" />
         <VCCodeMacro Name="__DOXYGEN__" Value="" />
         <VCCodeMacro Name="_DEBUG" Value="" />
-        <VCCodeMacro Name="prog_void" Value="" />
         <VCCodeMacro Name="GET_HAS_NEXT" Value="((heapstack[hashValue].next &amp; 0x40)&gt;&gt;6)" />
+        <VCCodeMacro Name="prog_void" Value="" />
+        <VCCodeMacro Name="prog_void" Value="" />
         <VCCodeMacro Name="_DEBUG2" Value="" />
         <VCCodeMacro Name="PGM_VOID_P" Value="int" />
+        <VCCodeMacro Name="PGM_VOID_P" Value="int" />
         <VCCodeMacro Name="_DEBUG3" Value="" />
+        <VCCodeMacro Name="NOINLINE" Value="__attribute__((noinline))" />
         <VCCodeMacro Name="NOINLINE" Value="__attribute__((noinline))" />
         <VCCodeMacro Name="SET_HAS_NEXT" Value="heapstack[hashValue].next=((heapstack[hashValue].next &amp; 0xBF) | (value&amp; 0x40))" />
         <VCCodeMacro Name="VIDEO_GEN_H" Value="" />
         <VCCodeMacro Name="GET_NEXT_VALUE" Value="(heapstack[hashValue].next &amp; 0x3F)" />
         <VCCodeMacro Name="ASM_MACROS_H" Value="" />
-        <VCCodeMacro Name="SET_NEXT_VALUE" Value="heapstack[hashValue].next=((heapstack[hashValue].next &amp; 0xC0) | (value&amp; 0x3F))" />
         <VCCodeMacro Name="ENABLE_FAST_OUTPUT" Value="" />
+        <VCCodeMacro Name="SET_NEXT_VALUE" Value="heapstack[hashValue].next=((heapstack[hashValue].next &amp; 0xC0) | (value&amp; 0x3F))" />
         <VCCodeMacro Name="VIDEO_TIMING_H" Value="" />
         <VCCodeMacro Name="_CYCLES_PER_US" Value="(F_CPU / 1000000)" />
         <VCCodeMacro Name="HARDWARE_SETUP_H" Value="" />
@@ -91,8 +115,8 @@
         <VCCodeMacro Name="_NTSC_LINE_START_VSYNC" Value="0" />
         <VCCodeMacro Name="_NTSC_LINE_STOP_VSYNC" Value="3" />
         <VCCodeMacro Name="_NTSC_LINE_DISPLAY" Value="216" />
-        <VCCodeMacro Name="TOSTRING" Value="#x" />
         <VCCodeMacro Name="PORT_SYNC" Value="PORTB" />
+        <VCCodeMacro Name="TOSTRING" Value="#x" />
         <VCCodeMacro Name="_NTSC_LINE_MID" Value="((_NTSC_LINE_FRAME - _NTSC_LINE_DISPLAY)/2 + _NTSC_LINE_DISPLAY/2)" />
         <VCCodeMacro Name="DDR_SYNC" Value="DDRB" />
         <VCCodeMacro Name="SYNC_PIN" Value="5" />
@@ -175,7 +199,7 @@
         <VCCodeMacro Name="ANDI_HWS" Value="&quot;andi	r16,0x7F\n&quot;" />
       </VCCodeMacros>
       <VCCodeVariables>
-        <VCCodeVariable Name="PONG2" />
+        <VCCodeVariable Name="chip8Event" />
       </VCCodeVariables>
     </VCCodeModel>
   </Program>
