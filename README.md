@@ -3,6 +3,33 @@ Chip8 emulator Arduino UNO
 
     A chip8 emulator written in C/C++ for Arduino One
 
+##Tutorial:
+
+###Add a chip8 game:
+
+* compile toos/RomFileToArray.cpp  
+
+* drop chip8 game on RomFileToArray.exe in windows  
+
+* in unix system, open the terminal and go to the location of RomFileToArray executable  
+  add execution permission whit chmod u+=x to RomFileToArray  
+  afterwrite ./RomFileToArray <chip8 game path>  
+
+* the program return 2 file : <game>.c and <game>.h  
+  include <game>.h  in MicroChip8.ino  
+  set the gamepad input with this table:  
+
+     uint8_t gamepad[16]={  
+        0,5,0,0,  
+        6,0,0,0,  
+        0,0,0,0,  
+        8,12,0,0  
+        };
+
+* set rom with this code line: 
+  Chip8SetRom(chip8,(uint16_t)<game>,<game>_SIZE);
+    
+    
 
 ##LICENSES:
 
