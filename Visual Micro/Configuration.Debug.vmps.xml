@@ -1,0 +1,9 @@
+<VisualMicro>
+  <Program Name="MicroChip8" Ext=".ino" Location="C:\Users\Gabriele\Documents\Arduino\MicroChip8">
+    <Debug DebugMode="" DebugEnabled="0" />
+    <Compile IsCompiled="0" CompilerErrors="0" ConfigurationName="Debug" StopOnError="True" OptimiseCore="True" BuildPath="C:\Users\Gabriele\AppData\Local\VMicro\Arduino\Builds\MicroChip8\uno" OptimiseLibs="False" />
+    <Platform Name="Arduino">
+      <Board Name="uno" Description="Arduino Uno" CoreFolder="C:\Users\Gabriele\Documents\arduino-1.0.4\hardware\arduino\cores\arduino" VariantFullPath="C:\Users\Gabriele\Documents\arduino-1.0.4\hardware\arduino\variants\standard" bootloader.extended_fuses="0x05" bootloader.file="optiboot_atmega328.hex" bootloader.high_fuses="0xde" bootloader.lock_bits="0x0F" bootloader.low_fuses="0xff" bootloader.path="optiboot" bootloader.unlock_bits="0x3F" build.core="arduino" build.f_cpu="16000000L" build.mcu="atmega328p" build.variant="standard" build.variant.vmresolved="C:\Users\Gabriele\Documents\arduino-1.0.4\hardware\arduino\variants\standard" name="Arduino Uno" upload.maximum_size="32256" upload.protocol="arduino" upload.speed="115200" />
+    </Platform>
+  </Program>
+</VisualMicro>
