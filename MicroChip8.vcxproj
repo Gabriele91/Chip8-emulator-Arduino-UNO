@@ -72,6 +72,10 @@
     <ClInclude Include="asm_macros.h">
       <FileType>CppCode</FileType>
     </ClInclude>
+    <ClInclude Include="BLINKY.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="BLITZ.h" />
     <ClInclude Include="chip8.h">
       <FileType>CppCode</FileType>
     </ClInclude>
@@ -90,7 +94,6 @@
       <FileType>CppCode</FileType>
     </ClInclude>
     <ClInclude Include="resource.h" />
-    <ClInclude Include="TETRIS.h" />
     <ClInclude Include="TinyHeap.h">
       <FileType>CppCode</FileType>
     </ClInclude>
@@ -107,12 +110,13 @@
     <ClInclude Include="Visual Micro\.MicroChip8.vsarduino.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="BLINKY.c" />
+    <ClCompile Include="BLITZ.c" />
     <ClCompile Include="chip8.cpp" />
     <ClCompile Include="gamepad.cpp" />
     <ClCompile Include="MemoryFree.cpp" />
     <ClCompile Include="PONG2.c" />
     <ClCompile Include="render.cpp" />
-    <ClCompile Include="TETRIS.c" />
     <ClCompile Include="TinyHeap.cpp" />
     <ClCompile Include="video_gen.cpp" />
   </ItemGroup>
